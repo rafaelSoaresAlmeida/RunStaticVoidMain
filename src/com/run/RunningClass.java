@@ -1,9 +1,6 @@
 package com.run;
 
-import com.methods.ArraySort;
-import com.methods.AscendingSliceMaximumSize;
-import com.methods.CircularQueue;
-import com.methods.MaxSubstringWithoutRepeatedCharacters;
+import com.methods.*;
 import com.methods.deckOfCards.Deck;
 
 import java.util.Queue;
@@ -58,9 +55,13 @@ public class RunningClass {
 
 
 
+        int x = 2;
+        int y = 3;
+        System.out.printf("%d", PowerCalculate.power(x, y));
 
 
-
-
+        float z = 2;
+        int u = -3;
+        System.out.printf("%f", PowerCalculate.power(z, u));
     }
 }
