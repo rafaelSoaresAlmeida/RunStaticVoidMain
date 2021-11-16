@@ -12,7 +12,7 @@ public class FindKthLastElementLinkedList {
         LinkedList current = head;
         LinkedList nBehindCurrent = head;
 
-        for (int i = 0; i < k - 1; i++) {
+      /*  for (int i = 0; i < k - 1; i++) {
             current = current. next;
             if (current == null) {
                 return null;
@@ -22,7 +22,7 @@ public class FindKthLastElementLinkedList {
         while (current.next != null) {
             nBehindCurrent = nBehindCurrent.next;
             current = current.next;
-        }
+        }*/
 
         return nBehindCurrent;
     }

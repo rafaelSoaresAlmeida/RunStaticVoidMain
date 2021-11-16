@@ -21,6 +21,7 @@ public class ArraySort {
         Collections.addAll(integerSet, integers);
 
         printValues(integerSet);
+        printValues(integerSet);
     }
 
     private static void printValues(int[] ints){
